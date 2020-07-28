@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+aside {
+  float: left;
+  margin: 10px 50px 0 0;
+}
+main {
+  display: flex;
+}
+.head-title--style {
+  font-size: 2em;
+}
+.header-start,
+.header-search,
+.head-title {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.videobook {
+  flex-direction: column;
+}
+.header-search > input {
+  width: 500px;
+}
